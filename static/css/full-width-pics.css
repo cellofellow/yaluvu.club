@@ -1,0 +1,92 @@
+/*!
+ * Start Bootstrap - Full Width Pics HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+nav.navbar-inverse.navbar-fixed-top {
+    border-color: #222;
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+	background: url('/img/uvu-aerial.jpg') no-repeat center center scroll;
+    padding: 100px 0;
+}
+
+.image-bg-fixed-height {
+	background: url('/img/uvu-aerial.jpg') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+
+section {
+    padding: 75px 0;
+}
+
+section .lead {
+    margin: 30px 0;
+}
+
+section p {
+    margin: 30px 0;
+    font-size: 16pt;
+}
+
+section h1 {
+    margin: 30px 0;
+    font-size: 36pt;
+}
+
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    section h1 {
+        font-size: 2em;
+    }
+}
+
+figure {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    padding: 4em 0;
+}
+
+figcaption {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+figcaption a:link {
+    color: #111;
+}
+
+.li {
+    font-size: 16pt;
+}

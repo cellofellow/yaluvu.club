@@ -1,0 +1,99 @@
+{{ partial "header.html" . }}
+<!-- Full Width Image Header with Logo -->
+<!-- Image backgrounds are set within the full-width-pics.css file. -->
+<header class="image-bg-fluid-height" style="background: #222">
+  <img class="img-responsive img-center" src="/img/big-logo.png" alt="">
+</header>
+
+<!-- Content Section -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Young Americans for Liberty @ Utah Valley University</h1>
+        <p class="lead">We are the YAL chapter at UVU. Everyone is welcome. Students, graduates, and community members!</p>
+        <p>YAL UVU is a club at Utah Valley University, and is a forum for educating ourselves and others about all things pertaining to liberty, both economic and social.</p>
+      </div>
+      <div class="col-lg-6">
+        <h1>Latest Blog Posts</h1>
+        <ul style="list-style-type: none">
+          {{ range .Data.Pages }}
+            {{ if eq .Type "post" }}
+              {{ .Render "li" }}
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+<!-- Fixed Height Image Aside -->
+<!-- Image backgrounds are set within the full-width-pics.css file. -->
+<aside class="image-bg-fixed-height">
+  <h2>We're at Utah Valley University in Orem, Utah</h2>
+</aside>
+
+<!-- Content Section -->
+<section style="background-color: #fccb06">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>How can I help?</h1>
+        <p class="lead">If you are a student at Utah Valley University and have a love of liberty, or just want to learn more, please <span style="font-size: 110%;">join our club</span>. We need a few more members to be able to re-charter our official status at UVU. You can join the club by going to the Clubs office at UVU, which is in the new Student Live building, and is right next to the ballroom in the Sorensen Center. The official club dues are $5 USD.
+        <p>If you are not a student at UVU, we can still use your help. Any participation to organize events, spread materials, and engage the community is appreciated. You can contact us on our <a href="https://www.facebook.com/groups/145968182184140/">Facebook Group</a> or <a href="mailto:general@yaluvu.club?subject=subscribe">subscribe to our mailing list</a>.
+        <p>We are in need of funds for activities. Donations can be made by check, please contact us to do so. Or we can accept Bitcoin with the address <span style="font-size: 50%">12seF2v4mhyC5Sq9Lb8VWFPpz3cvpufmts</span>.
+        <figure>
+          <a href="bitcoin:12seF2v4mhyC5Sq9Lb8VWFPpz3cvpufmts"><img src="/img/bitcoin-qr.svg" width=75%></a>
+          <figcaption><a href="bitcoin:12seF2v4mhyC5Sq9Lb8VWFPpz3cvpufmts">Scan or Click to Pay</a></figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Content Section -->
+<section style="background-color: #222; color: #eee">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Educational Links</h1>
+        <p class="lead">Linked here are websites with local and general information about libertarianism.</p>
+      </div>
+    </div>
+    <!-- /.row -->
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <ul>
+          <li><a href="http://www.yaliberty.org/">Young Americans for Liberty</a> &ndash; America's premier collegiate liberty organization.</li>
+          <li><a href="http://libertasutah.org/">Libertas Institute</a> &ndash; Utah legislative and educational group.</li>
+          <li><a href="http://mises.org/">Ludwig von Mises Institute</a> &ndash; Austrian Economics educational organization.</li>
+          <li><a href="http://fee.org/">Foundation for Economic Education</a> &ndash; One of the oldest free market organizations in the United States.</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <ul>
+          <li><a href="http://www.lewrockwell.com/">LewRockwell.com</a> &ndash; Libertarian commentary and articles website, blog, and podcast.</li>
+          <li><a href="http://www.libertyclassroom.com/">Liberty Classroom</a> &ndash; History and Economics classes, what you didn't learn in school.</li>
+          <li><a href="http://ronpaulinstitute.org/">Ron Paul Institute</a> &ndash; Foreign policy and civil liberties educational organization.</li>
+          <li><a href="http://www.schiffradio.com/f/Tom-Woods">Tom Woods Radio</a> &ndash; Commute-sized daily interviews and speeches about all worthy liberty-related topics.</li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <ul>
+          <li><a href="http://antiwar.com/">AntiWar.com</a> &ndash; Anti-War, pro-peace news.</li>
+          <li><a href="http://tenthamendmendcenter.com/">The Tenth Amendment Center</a> &ndash; States Rights and Nullification movement.</li>
+          <li><a href="http://liberty.me/">Liberty.me</a> &ndash; Social publishing site for libertarians.</li>
+          <li><a href="http://bitcoin.org/">Bitcoin</a> &ndash; The Future of Money.</li>
+          <li><a href="http://eff.org/">Electronic Frontier Foundation</a> &ndash; Digital and Internet rights education and legal counsel.</li>
+        </ul>
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+
+{{ partial "footer.html" . }}

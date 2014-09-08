@@ -1,0 +1,17 @@
+
+{{ partial "header.html" . }}
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>{{ .Title }}</h1>
+        <p class="lead">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+        <p>{{ .Description }}</p>
+        <hr>
+        {{ .Content }}
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
