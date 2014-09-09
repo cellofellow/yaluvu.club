@@ -5,7 +5,7 @@
  */
 
 body {
-    margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 nav.navbar-inverse.navbar-fixed-top {
@@ -58,17 +58,6 @@ footer {
     margin: 50px 0;
 }
 
-@media(max-width:768px) {
-    section {
-        padding-top: 25px;
-        padding-bottom: 25px;
-    }
-
-    section h1 {
-        font-size: 2em;
-    }
-}
-
 figure {
     width: 50%;
     margin: auto;
@@ -90,3 +79,27 @@ figcaption a:link {
 .li {
     font-size: 16pt;
 }
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    section h1 {
+        font-size: 2em;
+    }
+
+    section p {
+        font-size: 12pt;
+    }
+
+    .li {
+        font-size: 12pt;
+    }
+
+    figure {
+        padding: 2em 0;
+    }
+}
+
