@@ -14,7 +14,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav.navbar-inverse.navbar-fixed-top {
-    border-color: #222;
+    border-color: #231f20;
+    background-color: #231f20;
 }
 
 .image-bg-fluid-height,
