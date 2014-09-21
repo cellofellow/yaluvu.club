@@ -93,6 +93,7 @@ figcaption a:link {
 #related-sites img {
     margin: 10px auto;
     display: block;
+    max-width: 90%;
 }
 
 #related-sites div.row {
@@ -102,6 +103,7 @@ figcaption a:link {
 @media(max-width:992px) {
     #related-sites h2 {
         text-align: center;
+        line-height: 1em !important;
     }
 }
 
