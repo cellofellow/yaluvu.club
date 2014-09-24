@@ -21,7 +21,7 @@ all of your friends.
 {{% figure src="/img/october-2014-events-flyer.png" title="October 2014 Events"
 %}}
 
-[Download Printable PDF](/pdf/YAL UVU October 2014 Events.pdf)
+[Download Printable PDF](/pdf/YAL_UVU_October_2014_Events.pdf)
 
 ----------------------------
 
