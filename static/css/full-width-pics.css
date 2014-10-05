@@ -4,12 +4,33 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@font-face {
+  font-family: "Essays 1743";
+  src: url("/fonts/Essays1743.woff") format("woff");
+}
+@font-face {
+  font-family: "Essays 1743";
+  font-weight: bold;
+  src: url("/fonts/Essays1743-bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Essays 1743";
+  font-style: italic;
+  src: url("/fonts/Essays1743-italic.woff") format("woff");
+}
+@font-face {
+  font-family: "Essays 1743";
+  font-style: italic;
+  font-weight: bold;
+  src: url("/fonts/Essays1743-bold-italic.woff") format("woff");
+}
+
 body {
     /*margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Special Elite', monospace;
+    font-family: 'Essays 1743', serif;
     font-weight: 400;
 }
 
@@ -127,6 +148,10 @@ figcaption a:link {
 
     figure {
         padding: 2em 0;
+    }
+
+    figure img {
+        max-width: 90%;
     }
 
 }
