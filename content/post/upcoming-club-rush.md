@@ -2,7 +2,7 @@
 date = "2014-09-07T02:48:31-06:00"
 draft = false
 title = "Upcoming Club Rush"
-
+author = "Josh Gardner"
 +++
 
 Club Rush is coming soon! It'll be from Monday, September 15th to Tuesday, September 16th, 10am-2pm, in the main courtyard at UVU.

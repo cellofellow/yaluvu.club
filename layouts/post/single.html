@@ -2,17 +2,44 @@
 {{ partial "header.html" . }}
 {{ partial "navigation.html" . }}
 
-<section>
+{{ if isset .Params "headerimg" }}
+<aside class="image-bg-fluid-height" style="background-image: url('{{ .Params.headerimg }}'); color: white;">
+{{ end }}
+
+<header>
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
         <h1>{{ .Title }}</h1>
-        <p class="lead">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-        <p>{{ .Description }}</p>
-        <hr>
-        {{ .Content }}
+        <p class="lead">{{ .Date.Format "Mon, Jan 2, 2006" }}
+        <br>
+        By <i>{{ .Params.author }}</i>
+        </p>
+        {{ if .Description }}<p>{{ .Description }}</p>{{ end }}
+      </div><!-- /col -->
+    </div><!-- /row -->
+  </div><!-- /container -->
+</header>
+
+
+{{ if isset .Params "headerimg" }}
+</aside>
+{{ else }}
+<hr>
+{{ end }}
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      {{ .Content }}
+      </div>
     </div>
   </div>
 </section>
+
+{{ if isset .Params "footerimg" }}
+<aside class="image-bg-fixed-height" style="background-image: url('{{ .Params.footerimg }}');"></aside>
+{{ end }}
 
 {{ partial "footer.html" . }}

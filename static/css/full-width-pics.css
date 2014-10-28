@@ -91,6 +91,7 @@ figure {
     text-align: center;
     background-color: white;
     padding: 4em 0;
+    display: table;
 }
 
 figcaption {

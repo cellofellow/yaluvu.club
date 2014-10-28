@@ -2,7 +2,7 @@
 date = "2014-10-04T18:29:53-06:00"
 draft = false
 title = "Meet the Candidates 2014"
-
+author = "Josh Gardner"
 +++
 
 
@@ -20,3 +20,5 @@ running for state legislature this November.
 {{% figure src="/img/meet-the-candidates-poster.png" title="Poster" %}}
 
 [Download Printable PDF](/pdf/Meet_The_Candidates.pdf)
+
+<a href="https://www.facebook.com/events/1475131212752006/"><span class="fa fa-facebook-square"></span> Join the Facebook Event!</a>

@@ -2,7 +2,7 @@
 date = "2014-09-13T13:08:44-06:00"
 draft = false
 title = "Ready for Club Rush"
-
+author = "Josh Gardner"
 +++
 
 We've succesfully completed the first few steps towards re-chartering and have

@@ -2,7 +2,7 @@
 date = "2014-09-20T18:02:42-06:00"
 draft = false
 title = "October Events"
-
+author = "Josh Gardner"
 +++
 
 We had a very succesful Club Rush this week and kickoff planning meeting. We

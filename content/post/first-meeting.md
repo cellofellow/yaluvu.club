@@ -2,6 +2,7 @@
 date = "2014-09-17T20:15:10-06:00"
 draft = false
 title = "First Meeting"
+author = "Josh Gardner"
 
 +++
 
